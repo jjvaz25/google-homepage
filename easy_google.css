@@ -7,25 +7,65 @@ body {
 
 #topnav {
     height: 20px;
-    padding-top: 15px; 
+    padding-top: 25px; 
+}
+
+.topul {
+    border: 1px solid green;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color:black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+li:visited {
+    text-decoration: none;
 }
 
 li.topleft {
     float: left;
-    display: inline;
-    padding: 5px;
+    margin-left: 25px;
+    /*display: inline; 
+    margin-left: 25px;
+    padding: 5px;*/
 }
 
-li.topright{
+li.topright {
     float: right;
-    display: inline;
+    margin-right: 25px;
+}
+    /*display: inline;
     padding: 2px;
-    margin-right: 20px;
+    margin-right: 25px;*/
+
+    /*background-image: src="media_content/google_icon.jpg"*/
+.icon {
+    background-image: url("media_content/google_icon.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    height:35px;
+    width:35px;
 }
 
-.icon {
-    border: 1px solid black;
+.grid {
+    background-image: url("media_content/drive_grid.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    height:35px;
+    width:35px;
 }
+
 
 .logo {
     width: 300px;
@@ -37,7 +77,7 @@ li.topright{
 }
 
 form {
-    width: 570px;
+    width: 500px;
     height:38px;
     margin:auto;
     border: 1px solid rgba(211,211,211,0.7);
@@ -46,7 +86,7 @@ form {
 }
 
 input {
-    width: 500px;
+    width: 410px;
     height: 25px;
     position: relative;
     margin-top: 5px;
@@ -58,7 +98,7 @@ input {
 }
 
 input:focus {
-    outline:none;
+    outline: none;
 }
 
 .buttoncontainer {
@@ -78,23 +118,71 @@ input:focus {
     background-color: #f2f2f2;
 }
 
-disovertools {
-    text-align: center;
-}
+
 
 p {
     text-align:center;
 }
 
+
 #footer {
+    /*border: 1px solid black; */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 38px;
+    border: 1px solid red;
+    background-color:#e4e4e4;
+}
+
+.bottom {
+    border: 1px solid green;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+li.bottomright {
     border: 1px solid black;
-    position:fixed;
-    bottom: 0px;
-    width:100%;
-    height:30px;
+    float: right;
+    margin-right: 25px;
+    /*margin-top: 5px;
+    margin-right: 10px;*/
+}
+
+li.bottomleft {
+    border: 1px solid black;
+    float: left;
+    margin-left: 25px;
+    /*margin-top: 5px;
+    margin-left: 10px;*/
 }
 
 
+/*
+#footer {
+    border: 1px solid black;
+    position:fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.bottom li {
+    display: inline;
+}
+
+li.bottomright {
+    float: right;
+}
+
+li.bottomleft {
+    float: left;
+}
+
+*/
+
+/*
 li.bottomleft {
     float: left;
     padding: 5px;
@@ -104,7 +192,7 @@ li.bottomright {
     float: right;
     padding: 5px;
 }
-
+*/
 
 
 
