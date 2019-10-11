@@ -29,6 +29,10 @@ li {
     color: black;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 li:visited {
     text-decoration: none;
 }
