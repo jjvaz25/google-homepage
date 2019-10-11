@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+.topleft a, .topright a {
+    color:black;
+    opacity: 1;
+}
+
 li {
     display: inline-block;
     text-decoration: none;
