@@ -55,11 +55,13 @@ li.topright {
 
 .icon {
     display: block;
+    position: absolute;
     background-image: url("media_content/google_icon.jpg");
     background-repeat: no-repeat;
     position: relative;
     height:35px;
     width:35px;
+
 }
 
 .grid {
