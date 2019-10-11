@@ -11,7 +11,6 @@ body {
 }
 
 .topul {
-    border: 1px solid green;
     height: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -27,6 +26,7 @@ li {
     display: inline-block;
     text-decoration: none;
     color: black;
+    opacity: 0.75;
 }
 
 li:hover {
@@ -40,21 +40,16 @@ li:visited {
 li.topleft {
     float: left;
     margin-left: 25px;
-    /*display: inline; 
-    margin-left: 25px;
-    padding: 5px;*/
+
 }
 
 li.topright {
     float: right;
     margin-right: 25px;
 }
-    /*display: inline;
-    padding: 2px;
-    margin-right: 25px;*/
 
-    /*background-image: src="media_content/google_icon.jpg"*/
 .icon {
+    display: block;
     background-image: url("media_content/google_icon.jpg");
     background-repeat: no-repeat;
     position: relative;
