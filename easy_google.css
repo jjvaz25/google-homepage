@@ -53,6 +53,16 @@ li.topright {
     margin-right: 25px;
 }
 
+li.topright.icon {
+    height: 36px;
+    bottom: 10px;
+}
+
+li.topright.grid {
+    left: 7px;
+    bottom: 3px;
+}
+
 .icon {
     display: block;
     position: absolute;
@@ -61,7 +71,6 @@ li.topright {
     position: relative;
     height:35px;
     width:35px;
-
 }
 
 .grid {
@@ -70,6 +79,8 @@ li.topright {
     position: relative;
     height:35px;
     width:35px;
+    left: 7px;
+    bottom: 3px;
 }
 
 
